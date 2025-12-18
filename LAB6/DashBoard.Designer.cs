@@ -41,6 +41,7 @@
             this.btnServer.TabIndex = 0;
             this.btnServer.Text = "Server";
             this.btnServer.UseVisualStyleBackColor = true;
+            this.btnServer.Click += new System.EventHandler(this.btnServer_Click);
             // 
             // btnCustomer
             // 
@@ -50,6 +51,7 @@
             this.btnCustomer.TabIndex = 1;
             this.btnCustomer.Text = "Khách hàng";
             this.btnCustomer.UseVisualStyleBackColor = true;
+            this.btnCustomer.Click += new System.EventHandler(this.btnCustomer_Click);
             // 
             // btnCashier
             // 
@@ -59,6 +61,7 @@
             this.btnCashier.TabIndex = 2;
             this.btnCashier.Text = "Thu ngân";
             this.btnCashier.UseVisualStyleBackColor = true;
+            this.btnCashier.Click += new System.EventHandler(this.btnCashier_Click);
             // 
             // DashBoard
             // 

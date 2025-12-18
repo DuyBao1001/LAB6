@@ -16,7 +16,7 @@ namespace LAB6
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new ServerForm());
+            Application.Run(new DashBoard());
         }
     }
 }
