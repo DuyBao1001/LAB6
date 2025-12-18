@@ -1,4 +1,4 @@
-﻿namespace RestaurantSystem
+namespace RestaurantSystem
 {
     partial class StaffApp
     {
