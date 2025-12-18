@@ -10,11 +10,13 @@ using System.Windows.Forms;
 
 namespace LAB6
 {
-    public partial class Form1: Form
+    public partial class ServerForm: Form
     {
-        public Form1()
+        public ServerForm()
         {
             InitializeComponent();
         }
+
+
     }
 }
