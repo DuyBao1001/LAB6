@@ -1,4 +1,4 @@
-﻿namespace RestaurantSystem
+namespace RestaurantSystem
 {
     partial class StaffApp
     {
@@ -48,7 +48,7 @@
             // 
             this.txtTableID.Location = new System.Drawing.Point(70, 317);
             this.txtTableID.Name = "txtTableID";
-            this.txtTableID.Size = new System.Drawing.Size(60, 22);
+            this.txtTableID.Size = new System.Drawing.Size(60, 31);
             this.txtTableID.TabIndex = 2;
             // 
             // btnCharge
@@ -67,7 +67,7 @@
             this.lblTotal.ForeColor = System.Drawing.Color.Red;
             this.lblTotal.Location = new System.Drawing.Point(360, 318);
             this.lblTotal.Name = "lblTotal";
-            this.lblTotal.Size = new System.Drawing.Size(65, 24);
+            this.lblTotal.Size = new System.Drawing.Size(110, 37);
             this.lblTotal.TabIndex = 4;
             this.lblTotal.Text = "0 VNĐ";
             // 
@@ -108,7 +108,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label2);
             this.Name = "StaffApp";
-            this.Text = "Ứng dụng Thu ngân (Staff Client)";
+            this.Text = "Thu ngân (Staff Client)";
             ((System.ComponentModel.ISupportInitialize)(this.dgvOrders)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
